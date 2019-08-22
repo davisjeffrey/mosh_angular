@@ -22,6 +22,8 @@ export class CoursesComponent {
     releaseDate: new Date(2016, 3, 1)
   };
 
+  text = ' Loren Ipsum is simply dummy text of the printing and typeset';
+
   onSave($event) {
     $event.stopPropagation();
     console.log('Button was clicked', $event); }
