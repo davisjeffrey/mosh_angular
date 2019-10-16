@@ -11,6 +11,8 @@ import { AuthorsComponent } from './authors/authors.component';
 import { AuthorsService } from './authors.service';
 import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
+import { TitlecaseComponent } from './titlecase/titlecase.component';
+import { TitleCasePipe } from './title-case.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FavoriteComponent } from './favorite/favorite.component';
     CoursesComponent,
     AuthorsComponent,
     SummaryPipe,
-    FavoriteComponent
+    FavoriteComponent,
+    TitlecaseComponent,
+    TitleCasePipe
 
   ],
   imports: [
