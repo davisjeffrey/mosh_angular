@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./authors.component.css']
 })
 export class AuthorsComponent implements OnInit {
-  authors;
-  authorCount;
+  authors:string[];
+  authorCount:number;
 
 constructor(service: AuthorsService) {
 
