@@ -13,6 +13,7 @@ import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { TitlecaseComponent } from './titlecase/titlecase.component';
 import { TitleCasePipe } from './title-case.pipe';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TitleCasePipe } from './title-case.pipe';
     SummaryPipe,
     FavoriteComponent,
     TitlecaseComponent,
-    TitleCasePipe
+    TitleCasePipe,
+    ContactFormComponent
 
   ],
   imports: [

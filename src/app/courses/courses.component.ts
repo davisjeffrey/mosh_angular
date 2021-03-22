@@ -16,13 +16,14 @@ export class CoursesComponent {
 
   course = {
     title: 'The  Complete Angular Course',
-    rating: 4.9745,
+    rating: 4.97,
     students: 30123,
     price: 190.95,
     releaseDate: new Date(2016, 3, 1)
   };
 
   text = ' Loren Ipsum is simply dummy text of the printing and typeset';
+  imageUrl="http://lorempixel.com/400/200";
 
   onSave($event) {
     $event.stopPropagation();

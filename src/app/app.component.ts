@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mosh';
+
+  post = {
+    title: "Title",
+    isFavorite:false
+  }
+
+  onFavoriteChanged(eventArgs){
+    console.log("Fav changed", eventArgs)
+  }
 }
